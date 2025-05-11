@@ -1,0 +1,135 @@
+{
+    "users": [
+      {
+        "user_id": 1,
+        "user_name": "Alice",
+        "following": [2, 3, 5, 6],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Exploring gRPC with Golang!",
+            "timestamp": "2025-04-09T13:01:00Z"
+          },
+          {
+            "post_id": 2,
+            "content": "Building my first microservice.",
+            "timestamp": "2025-04-09T13:02:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 2,
+        "user_name": "Bob",
+        "following": [1, 4, 6],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Concurrency in Go is powerful.",
+            "timestamp": "2025-04-09T12:45:00Z"
+          },
+          {
+            "post_id": 2,
+            "content": "Just discovered the `context` package!",
+            "timestamp": "2025-04-09T12:46:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 3,
+        "user_name": "Charlie",
+        "following": [1, 2, 5, 7, 10],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Time for some coffee and coding.",
+            "timestamp": "2025-04-09T09:00:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 4,
+        "user_name": "Diana",
+        "following": [2, 3, 5],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "What a day to learn Go routines!",
+            "timestamp": "2025-04-09T10:30:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 5,
+        "user_name": "Ethan",
+        "following": [1, 4, 6, 7, 8],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Refactored my entire codebase. Feels good!",
+            "timestamp": "2025-04-09T11:20:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 6,
+        "user_name": "Fiona",
+        "following": [3, 5, 9],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Weekend side project: done ✅",
+            "timestamp": "2025-04-09T08:00:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 7,
+        "user_name": "George",
+        "following": [1, 3, 4, 6, 8, 10],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Learning protobufs today!",
+            "timestamp": "2025-04-09T15:45:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 8,
+        "user_name": "Hannah",
+        "following": [2, 3, 4, 9],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Dockerizing all the things!",
+            "timestamp": "2025-04-09T16:30:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 9,
+        "user_name": "Ivan",
+        "following": [1, 2, 5, 10],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Unit tests are my new best friend.",
+            "timestamp": "2025-04-09T18:00:00Z"
+          }
+        ]
+      },
+      {
+        "user_id": 10,
+        "user_name": "Jade",
+        "following": [3, 6, 7, 9],
+        "posts": [
+          {
+            "post_id": 1,
+            "content": "Debugging... again.",
+            "timestamp": "2025-04-09T19:00:00Z"
+          }
+        ]
+      }
+    ]
+  }
+  

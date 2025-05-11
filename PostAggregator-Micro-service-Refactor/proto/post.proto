@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package post;
+
+option go_package = "postaggregator/postpb";
+
+message ListPostsRequest {
+  int32 userId = 1;
+}
+
+message Post {
+  int32 postId = 1;
+  int32 userId = 2;
+  string content = 3;
+  string timestamp = 4;
+}
+
+message ListPostsResponse {
+  repeated Post posts = 1;
+}
+
+message FollowingUser {
+  int32 userId = 1;
+  string userName = 2;
+}
+
+message ListFollowingRequest {
+  int32 userId = 1;
+}
+
+message ListFollowingResponse {
+  repeated int32 followingIds = 1;
+}
+
+
+service PostService {
+  rpc ListPostsByUser(ListPostsRequest) returns (ListPostsResponse);
+  rpc ListFollowing(ListFollowingRequest) returns (ListFollowingResponse);
+  rpc GetUserFeed(ListPostsRequest) returns  (ListPostsResponse); 
+}
